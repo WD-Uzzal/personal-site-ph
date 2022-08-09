@@ -1,0 +1,201 @@
+@media only screen and (max-width : 600px) {
+    .full-width{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 25px;
+        font-weight: 400;
+        margin: 0;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 500;
+        color: tomato;
+        margin: 0;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: gray;
+    }
+    .but a{
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 8px 15px;
+        background-image: linear-gradient(45deg, rgb(224, 35, 35), tomato);
+        color: #fff;
+    }
+    .half-width{
+        width: 100%;
+       }
+       .half-width .img img{
+        max-width: 70%;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .biography-area{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .biography-area .img img{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .work-area{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-image: url(../img/latest-work-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .qu-width img{
+        max-width: 100%;
+        widows: 500px;
+        height: 300px;
+        margin-top: 20px;
+        }
+        .client-area h2{
+            font-size: 30px;
+            font-weight: 400;
+            color: #000;
+            padding-bottom: 20px;
+        }
+        .client-area h3{
+            font-size: 20px;
+            margin: 0;
+        }
+        .massage{
+            margin-top: 80px;
+            padding: 10px 50px;
+            background: linear-gradient(15deg, rgb(240, 150, 153), purple);
+            border-image-slice: 1;
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+        .massage h5{
+            font-size: 20px;
+            color: #fff;
+            margin: 0;
+            margin-top: 40px;
+        }
+        .massage p{
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            margin: 0;
+            
+        }
+}
+@media only screen and (min-width : 600px) and (max-width : 990px){
+    .massage{
+        margin-top: 80px;
+        padding: 20px 40px;
+        background: linear-gradient(15deg, rgb(240, 150, 153), purple);
+        border-image-slice: 1;
+        display: inline-block;
+        letter-spacing: 2px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        color: gray;
+    }
+    .but a{
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 10px;
+        background-image: linear-gradient(45deg, rgb(224, 35, 35), tomato);
+        color: #fff;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+        color: tomato;
+        margin: 0;
+    }
+    p{
+        font-size: 14px;
+    }
+    /* .half-width{
+        width: 60%;
+       } */
+}
+@media only screen and (min-width : 0px) and (max-width : 600px){
+    .work-title h1{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 500;
+        color: tomato;
+        margin: 0;
+    }
+    p{
+        font-size: 10px;
+        font-weight: 400;
+        color: gray;
+        margin: 0;
+    }
+    .client-area h2{
+        font-size: 20px;
+    }
+    .client-area .pess{
+        font-size: 10px;
+    }
+    .but a{
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 8px;
+        background-image: linear-gradient(45deg, rgb(224, 35, 35), tomato);
+        color: #fff;
+    }
+    .massage{
+        margin-top: 80px;
+        padding: 20px 80px;
+        background: linear-gradient(15deg, rgb(240, 150, 153), purple);
+        border-image-slice: 1;
+        display: inline-block;
+        letter-spacing: 2px;
+    }
+    .massage h5{
+        font-size: 15px;
+        color: #fff;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .massage p{
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+        
+    }
+}
